@@ -131,6 +131,7 @@ let g:neosolarized_vertSplitBgTrans = get(g:, "neosolarized_vertSplitBgTrans", 1
 " Colorscheme initialization "{{{
 " ---------------------------------------------------------------------
 hi clear
+colorscheme vim
 if exists("syntax_on")
   syntax reset
 endif
